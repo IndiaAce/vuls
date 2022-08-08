@@ -25,12 +25,12 @@ Twitter: [@vuls_en](https://twitter.com/vuls_en)
 
 ## Abstract
 
-For a system administrator, having to perform security vulnerability analysis and software update on a daily basis can be a burden.
-To avoid downtime in a production environment, it is common for a system administrator to choose not to use the automatic update option provided by the package manager and to perform update manually.
+Performing security vulnerability analysis and software updates daily can be a burden for a system administrator.
+To avoid downtime in a production environment, it is common for a system administrator to choose not to use the automatic update option provided by the package manager and to perform updates manually.
 This leads to the following problems.
 
 - The system administrator will have to constantly watch out for any new vulnerabilities in NVD (National Vulnerability Database) or similar databases.
-- It might be impossible for the system administrator to monitor all the software if there are a large number of software packages installed in the server.
+- It might be impossible for the system administrator to monitor all the software if many software packages are installed on the server.
 - It is expensive to perform analysis to determine the servers affected by new vulnerabilities. The possibility of overlooking a server or two during analysis is there.
 
 Vuls is a tool created to solve the problems listed above. It has the following characteristics.
@@ -38,7 +38,7 @@ Vuls is a tool created to solve the problems listed above. It has the following 
 - Informs users of the vulnerabilities that are related to the system.
 - Informs users of the servers that are affected.
 - Vulnerability detection is done automatically to prevent any oversight.
-- A report is generated on a regular basis using CRON or other methods. to manage vulnerability.
+- A report is generated regularly using CRON or other methods. to manage vulnerability.
 
 ![Vuls-Motivation](img/vuls-motivation.png)
 
